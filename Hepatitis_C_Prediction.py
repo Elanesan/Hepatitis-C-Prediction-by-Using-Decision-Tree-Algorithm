@@ -26,11 +26,11 @@ prediction = model.predict(new_data)
 
 if prediction[0] == 0:
     print("Blood Donor")
-elif prediction[0] == 1:
+elif prediction[0] == 00:
     print("Suspect Blood Donor")
-elif prediction[0] == 2:
+elif prediction[0] == 1:
     print("Hepatitis")
-elif prediction[0] == 3:
+elif prediction[0] == 2:
     print("Fibrosis")
 else:
     print("Cirrhosis")
